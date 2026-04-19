@@ -304,7 +304,7 @@ if page == PAGES[0]:
     # ── Revenue Trend ──
     section_header("Revenue Trend — Ramadan & Weekend Highlights")
     from src.eda import plot_revenue_trend
-    st.plotly_chart(plot_revenue_trend(sales), use_container_width=True)
+    st.plotly_chart(plot_revenue_trend(sales), width="stretch")
 
     # ── Category Breakdown ──
     section_header("Revenue by Category")
@@ -318,7 +318,7 @@ if page == PAGES[0]:
     fig_cat.update_coloraxes(showscale=False)
     fig_cat.update_layout(template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)",
                           plot_bgcolor="rgba(0,0,0,0)", height=400)
-    st.plotly_chart(fig_cat, use_container_width=True)
+    st.plotly_chart(fig_cat, width="stretch")
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -333,7 +333,7 @@ elif page == PAGES[1]:
     qr = get_all_quality_reports()
     ds_filter = st.selectbox("Dataset", qr["Dataset"].unique())
     st.dataframe(qr[qr["Dataset"] == ds_filter].drop(columns="Dataset"),
-                 use_container_width=True, hide_index=True)
+                 width="stretch", hide_index=True)
 
     st.markdown("---")
 
@@ -353,7 +353,7 @@ elif page == PAGES[1]:
                               "quantity", "weekly_marketing_spend_aed", "weekly_web_traffic"],
             key="dist_col"
         )
-        st.plotly_chart(plot_distribution(sales, col_choice), use_container_width=True)
+        st.plotly_chart(plot_distribution(sales, col_choice), width="stretch")
 
     with tab2:
         cat_choice = st.selectbox(
@@ -362,18 +362,18 @@ elif page == PAGES[1]:
             key="cat_col"
         )
         st.plotly_chart(plot_category_counts(data["sales"], cat_choice),
-                        use_container_width=True)
+                        width="stretch")
 
         # show pie too
         st.plotly_chart(plot_pie(data["sales"], cat_choice,
                                 f"Proportion — {cat_choice}"),
-                        use_container_width=True)
+                        width="stretch")
 
     with tab3:
         heatmap_ds = st.radio("Dataset", ["Sales", "Profiles"], horizontal=True,
                               key="hm_ds")
         df_hm = data["sales"] if heatmap_ds == "Sales" else data["profiles"]
-        st.plotly_chart(plot_correlation_heatmap(df_hm), use_container_width=True)
+        st.plotly_chart(plot_correlation_heatmap(df_hm), width="stretch")
 
     with tab4:
         sales = data["sales"]
@@ -385,9 +385,9 @@ elif page == PAGES[1]:
             y_col = st.selectbox("Y axis", ["revenue_aed", "quantity",
                                              "unit_price_aed"], key="bv_y")
         st.plotly_chart(plot_bivariate_scatter(sales, x_col, y_col),
-                        use_container_width=True)
+                        width="stretch")
         st.plotly_chart(plot_box_by_category(sales, "category", "revenue_aed"),
-                        use_container_width=True)
+                        width="stretch")
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -411,7 +411,7 @@ elif page == PAGES[2]:
     # Metrics
     section_header("Model Comparison")
     mt = metrics_table(results)
-    st.dataframe(mt, use_container_width=True, hide_index=True)
+    st.dataframe(mt, width="stretch", hide_index=True)
 
     # Highlight best MAPE
     best = mt.loc[mt["MAPE (%)"].idxmin()]
@@ -420,13 +420,13 @@ elif page == PAGES[2]:
 
     # Actual vs Predicted
     section_header("Actual vs Predicted")
-    st.plotly_chart(plot_actual_vs_predicted(y_test, results), use_container_width=True)
+    st.plotly_chart(plot_actual_vs_predicted(y_test, results), width="stretch")
 
     # Coefficients
     section_header("Feature Coefficients")
     model_sel = st.selectbox("Select model", list(results.keys()), key="reg_coef_model")
     st.plotly_chart(plot_coefficients(results[model_sel]["model"], FEATURE_COLS),
-                    use_container_width=True)
+                    width="stretch")
 
     # Scenario Simulator
     st.markdown("---")
@@ -482,14 +482,14 @@ elif page == PAGES[3]:
     # Metrics table
     section_header("Model Comparison")
     cmt = classification_metrics_table(results)
-    st.dataframe(cmt, use_container_width=True, hide_index=True)
+    st.dataframe(cmt, width="stretch", hide_index=True)
 
     best_name = cmt.loc[cmt["AUC-ROC"].idxmax(), "Model"]
     st.success(f"🏆 **Best Model:** {best_name}  —  AUC = {cmt['AUC-ROC'].max():.4f}")
 
     # ROC curves
     section_header("ROC Curves")
-    st.plotly_chart(plot_roc_curves(y_test, results), use_container_width=True)
+    st.plotly_chart(plot_roc_curves(y_test, results), width="stretch")
 
     # Confusion matrices
     section_header("Confusion Matrices")
@@ -497,13 +497,13 @@ elif page == PAGES[3]:
     for i, (name, vals) in enumerate(results.items()):
         with cm_cols[i]:
             st.plotly_chart(plot_confusion_matrix(y_test, vals["y_pred"], name),
-                            use_container_width=True)
+                            width="stretch")
 
     # Feature importance
     section_header("Top Churn Predictors")
     best_model = results[best_name]["model"]
     st.plotly_chart(plot_feature_importance(best_model, feat_names),
-                    use_container_width=True)
+                    width="stretch")
 
     # Threshold tuning
     st.markdown("---")
@@ -512,7 +512,7 @@ elif page == PAGES[3]:
                               key="cls_threshold")
     best_prob = results[best_name]["y_prob"]
     ta = threshold_analysis(y_test, best_prob, [0.3, 0.4, 0.5, 0.6, 0.7])
-    st.dataframe(ta, use_container_width=True, hide_index=True)
+    st.dataframe(ta, width="stretch", hide_index=True)
 
     # Show metrics at selected threshold
     from sklearn.metrics import precision_score, recall_score, f1_score
@@ -554,9 +554,9 @@ elif page == PAGES[3]:
 
     # Preset Action Bar
     pb1, pb2, pb3, pb4 = st.columns([1.5, 1.5, 1.5, 4])
-    pb1.button("🚨 Load High Risk", on_click=apply_high_risk, use_container_width=True)
-    pb2.button("🌟 Load Low Risk", on_click=apply_low_risk, use_container_width=True)
-    pb3.button("↺ Reset Values", on_click=reset_inputs, use_container_width=True)
+    pb1.button("🚨 Load High Risk", on_click=apply_high_risk, width="stretch")
+    pb2.button("🌟 Load Low Risk", on_click=apply_low_risk, width="stretch")
+    pb3.button("↺ Reset Values", on_click=reset_inputs, width="stretch")
 
     st.markdown("<br>", unsafe_allow_html=True)
     
@@ -612,7 +612,7 @@ elif page == PAGES[3]:
             st.markdown("</div>", unsafe_allow_html=True)
 
         st.markdown("<div class='predict-btn-container'>", unsafe_allow_html=True)
-        submitted = st.form_submit_button("⚡ Run AI Prediction Engine", type="primary", use_container_width=True)
+        submitted = st.form_submit_button("⚡ Run AI Prediction Engine", type="primary", width="stretch")
         st.markdown("</div>", unsafe_allow_html=True)
 
     if submitted:
@@ -679,7 +679,7 @@ elif page == PAGES[3]:
                 }
             ))
             fig_gauge.update_layout(paper_bgcolor="rgba(0,0,0,0)", font={'color': "white", 'family': "Inter"}, height=350, margin=dict(l=30, r=30, t=50, b=20))
-            st.plotly_chart(fig_gauge, use_container_width=True)
+            st.plotly_chart(fig_gauge, width="stretch")
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -705,7 +705,7 @@ elif page == PAGES[4]:
     with st.spinner("Computing Elbow & Silhouette…"):
         k_range, inertias, sil_scores = elbow_silhouette(X_scaled)
     st.plotly_chart(plot_elbow_silhouette(k_range, inertias, sil_scores),
-                    use_container_width=True)
+                    width="stretch")
 
     optimal_k = st.slider("Choose K (number of segments)", 2, 10,
                           int(k_range[np.argmax(sil_scores)]), key="k_slider")
@@ -719,17 +719,17 @@ elif page == PAGES[4]:
     section_header("Cluster Visualisation (PCA)")
     st.plotly_chart(
         plot_pca_clusters(X_scaled, labels, df_clustered["Segment"].values),
-        use_container_width=True
+        width="stretch"
     )
 
     # Profiles
     section_header("Segment Profiles")
     profiles = cluster_profiles(df_clustered)
-    st.dataframe(profiles, use_container_width=True)
+    st.dataframe(profiles, width="stretch")
 
     # Radar
     section_header("Radar Comparison")
-    st.plotly_chart(plot_cluster_radar(profiles), use_container_width=True)
+    st.plotly_chart(plot_cluster_radar(profiles), width="stretch")
 
     # Segment descriptions
     section_header("Segment Descriptions")
@@ -791,7 +791,7 @@ elif page == PAGES[5]:
             freq_display = freq.copy()
             freq_display["itemsets"] = freq_display["itemsets"].apply(lambda x: ", ".join(list(x)))
             freq_display = freq_display.sort_values("support", ascending=False).head(10)
-            st.dataframe(freq_display, use_container_width=True, hide_index=True)
+            st.dataframe(freq_display, width="stretch", hide_index=True)
     else:
         if auto_adjusted:
             st.warning("⚠️ No rules found at current thresholds.")
@@ -802,21 +802,21 @@ elif page == PAGES[5]:
         # Top rules table
         section_header("Top Association Rules (by Lift)")
         trt = top_rules_table(rules, top_n=15)
-        st.dataframe(trt, use_container_width=True, hide_index=True)
+        st.dataframe(trt, width="stretch", hide_index=True)
 
         # Plots
         pc1, pc2 = st.columns(2)
         with pc1:
-            st.plotly_chart(plot_rules_scatter(rules), use_container_width=True)
+            st.plotly_chart(plot_rules_scatter(rules), width="stretch")
         with pc2:
-            st.plotly_chart(plot_top_rules_bar(rules), use_container_width=True)
+            st.plotly_chart(plot_top_rules_bar(rules), width="stretch")
 
         # Bundle Recommendations
         st.markdown("---")
         section_header("🎁 Bundle Recommendations")
         bundles = generate_bundle_recommendations(rules, top_n=5)
         if bundles:
-            st.dataframe(pd.DataFrame(bundles), use_container_width=True, hide_index=True)
+            st.dataframe(pd.DataFrame(bundles), width="stretch", hide_index=True)
         else:
             st.info("Enrich rules with product names for bundle display.")
 
@@ -858,7 +858,7 @@ elif page == PAGES[6]:
                 file_name="Noon_Daily_ML_Executive_Report.pdf",
                 mime='application/octet-stream',
                 type="primary",
-                use_container_width=True
+                width="stretch"
             )
         except Exception as e:
             st.error(f"Generate script missing. Error: {e}")
