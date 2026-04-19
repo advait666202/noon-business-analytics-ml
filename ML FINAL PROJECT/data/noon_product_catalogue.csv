@@ -1,0 +1,501 @@
+product_id,product_name,category,sub_category,brand,unit_price_aed,price_tier,shelf_life_days,avg_rating,review_count,launch_date
+P1001,KDD Fruits #1,Fresh Produce,Fruits,Al Rawabi,10.99,Mid-Range,3,3.7,1135,2024-01-01
+P1002,Lacnor Fruits #2,Fresh Produce,Fruits,Huggies,3.04,Budget,14,4.0,471,2024-05-23
+P1003,Pampers Fruits #3,Fresh Produce,Fruits,Americana,26.14,Mid-Range,5,4.3,1690,2024-08-25
+P1004,Masafi Fruits #4,Fresh Produce,Fruits,Lacnor,4.64,Budget,365,3.4,281,2024-03-30
+P1005,Nada Fruits #5,Fresh Produce,Fruits,Nadec,8.97,Budget,90,2.5,752,2023-05-07
+P1006,Almarai Fruits #6,Fresh Produce,Fruits,Al Ain,14.2,Mid-Range,5,2.7,1710,2022-12-01
+P1007,Dettol Fruits #7,Fresh Produce,Fruits,Pampers,4.21,Budget,365,2.3,691,2023-08-16
+P1008,Rainbow Fruits #8,Fresh Produce,Fruits,Al Ain,7.8,Budget,365,2.8,836,2024-02-29
+P1009,Dettol Fruits #9,Fresh Produce,Fruits,Mai Dubai,10.32,Mid-Range,365,4.4,845,2021-06-16
+P1010,Lux Fruits #10,Fresh Produce,Fruits,Pampers,2.0,Budget,180,4.6,1374,2022-07-19
+P1011,Nadec Fruits #11,Fresh Produce,Fruits,Huggies,4.06,Budget,3,3.3,960,2022-05-24
+P1012,Puck Fruits #12,Fresh Produce,Fruits,Philadelphia,5.5,Budget,7,4.1,1109,2023-10-23
+P1013,Mai Dubai Fruits #13,Fresh Produce,Fruits,Lux,2.45,Budget,60,3.6,1800,2022-12-04
+P1014,Huggies Fruits #14,Fresh Produce,Fruits,Americana,6.42,Budget,14,4.6,206,2023-09-23
+P1015,Puck Fruits #15,Fresh Produce,Fruits,Kelloggs,13.34,Mid-Range,5,3.9,460,2024-06-29
+P1016,Nada Fruits #16,Fresh Produce,Fruits,Dove,6.74,Budget,5,3.6,724,2021-12-04
+P1017,Lipton Vegetables #17,Fresh Produce,Vegetables,Oreo,48.07,Premium,60,4.5,221,2023-02-03
+P1018,Rainbow Vegetables #18,Fresh Produce,Vegetables,Huggies,2.21,Budget,3,4.3,1185,2021-01-15
+P1019,Lacnor Vegetables #19,Fresh Produce,Vegetables,Ariel,2.0,Budget,365,2.8,652,2023-12-23
+P1020,Al Rawabi Vegetables #20,Fresh Produce,Vegetables,Doritos,11.77,Mid-Range,90,4.4,1703,2022-02-23
+P1021,Nada Vegetables #21,Fresh Produce,Vegetables,Al Kabeer,3.78,Budget,30,3.6,139,2021-07-20
+P1022,Kraft Vegetables #22,Fresh Produce,Vegetables,KDD,2.21,Budget,60,4.6,1076,2022-05-18
+P1023,Nadec Vegetables #23,Fresh Produce,Vegetables,Dettol,3.05,Budget,5,3.0,103,2022-11-15
+P1024,Almarai Vegetables #24,Fresh Produce,Vegetables,Masafi,14.41,Mid-Range,14,4.0,965,2022-09-05
+P1025,Puck Vegetables #25,Fresh Produce,Vegetables,Nestle,3.5,Budget,5,4.3,402,2023-05-21
+P1026,Oreo Vegetables #26,Fresh Produce,Vegetables,Pampers,6.55,Budget,5,3.1,1719,2023-05-14
+P1027,Dove Vegetables #27,Fresh Produce,Vegetables,Huggies,2.38,Budget,180,4.5,100,2022-04-30
+P1028,KDD Vegetables #28,Fresh Produce,Vegetables,Kraft,4.82,Budget,60,2.8,1199,2022-06-25
+P1029,Lurpak Vegetables #29,Fresh Produce,Vegetables,Lipton,3.87,Budget,60,3.4,582,2022-11-13
+P1030,Dettol Vegetables #30,Fresh Produce,Vegetables,Masafi,11.04,Mid-Range,30,4.6,650,2023-03-07
+P1031,Mai Dubai Vegetables #31,Fresh Produce,Vegetables,Doritos,4.84,Budget,5,4.2,1826,2024-09-16
+P1032,Rainbow Vegetables #32,Fresh Produce,Vegetables,KDD,3.98,Budget,7,3.5,1501,2024-06-08
+P1033,Al Kabeer Herbs #33,Fresh Produce,Herbs,Lacnor,6.01,Budget,14,4.1,1311,2022-09-25
+P1034,Lurpak Herbs #34,Fresh Produce,Herbs,Ariel,9.36,Budget,90,4.0,1387,2022-12-11
+P1035,Huggies Herbs #35,Fresh Produce,Herbs,Doritos,2.0,Budget,365,4.0,1705,2024-06-02
+P1036,Pampers Herbs #36,Fresh Produce,Herbs,Masafi,5.62,Budget,60,3.2,1855,2024-10-29
+P1037,Kraft Herbs #37,Fresh Produce,Herbs,Puck,9.4,Budget,3,2.8,1720,2024-02-11
+P1038,Pampers Herbs #38,Fresh Produce,Herbs,Kraft,7.3,Budget,3,3.8,1296,2024-02-11
+P1039,Philadelphia Herbs #39,Fresh Produce,Herbs,Kelloggs,5.19,Budget,90,3.7,1764,2024-06-02
+P1040,Huggies Herbs #40,Fresh Produce,Herbs,Nada,23.26,Mid-Range,14,4.5,1081,2022-12-31
+P1041,Doritos Herbs #41,Fresh Produce,Herbs,Nadec,18.44,Mid-Range,60,4.3,127,2022-02-05
+P1042,Dettol Herbs #42,Fresh Produce,Herbs,KDD,3.89,Budget,180,4.8,888,2021-07-17
+P1043,Dove Herbs #43,Fresh Produce,Herbs,Lays,19.58,Mid-Range,180,3.5,148,2022-09-01
+P1044,Americana Herbs #44,Fresh Produce,Herbs,Huggies,7.56,Budget,7,3.0,468,2024-10-04
+P1045,Pampers Herbs #45,Fresh Produce,Herbs,Lacnor,5.3,Budget,365,4.4,1960,2022-02-07
+P1046,Al Kabeer Herbs #46,Fresh Produce,Herbs,Huggies,15.03,Mid-Range,90,4.2,1176,2023-05-14
+P1047,Lays Herbs #47,Fresh Produce,Herbs,Nadec,10.41,Mid-Range,90,2.1,876,2022-10-03
+P1048,Lipton Herbs #48,Fresh Produce,Herbs,Pampers,18.83,Mid-Range,7,4.4,1974,2021-05-31
+P1049,Sadia Milk #49,Dairy & Eggs,Milk,Persil,33.04,Mid-Range,5,4.1,267,2021-05-24
+P1050,Puck Milk #50,Dairy & Eggs,Milk,Almarai,8.86,Budget,5,4.7,1600,2023-05-31
+P1051,Americana Milk #51,Dairy & Eggs,Milk,KDD,5.7,Budget,7,3.7,1680,2022-03-29
+P1052,Philadelphia Milk #52,Dairy & Eggs,Milk,Masafi,9.1,Budget,90,4.3,13,2024-06-10
+P1053,Rainbow Milk #53,Dairy & Eggs,Milk,Nada,20.9,Mid-Range,90,3.2,1159,2022-02-08
+P1054,Dove Milk #54,Dairy & Eggs,Milk,Rainbow,9.03,Budget,180,4.0,1948,2022-09-20
+P1055,Sadia Milk #55,Dairy & Eggs,Milk,Huggies,8.86,Budget,365,4.4,1255,2024-02-10
+P1056,Oreo Milk #56,Dairy & Eggs,Milk,Al Ain,9.34,Budget,5,3.3,1889,2023-07-03
+P1057,Masafi Milk #57,Dairy & Eggs,Milk,Lays,8.5,Budget,365,2.9,826,2024-04-01
+P1058,Puck Milk #58,Dairy & Eggs,Milk,Huggies,2.85,Budget,60,4.3,165,2023-03-12
+P1059,Al Rawabi Cheese #59,Dairy & Eggs,Cheese,Nestle,2.55,Budget,90,3.8,1532,2024-03-04
+P1060,Lurpak Cheese #60,Dairy & Eggs,Cheese,Ariel,3.43,Budget,3,4.6,692,2022-04-05
+P1061,Lacnor Cheese #61,Dairy & Eggs,Cheese,Lays,45.54,Premium,30,3.9,1050,2023-01-20
+P1062,Sadia Cheese #62,Dairy & Eggs,Cheese,Puck,9.51,Budget,7,3.8,567,2022-03-14
+P1063,Sadia Cheese #63,Dairy & Eggs,Cheese,Doritos,6.6,Budget,5,4.4,1305,2023-03-09
+P1064,Oreo Cheese #64,Dairy & Eggs,Cheese,KDD,22.01,Mid-Range,30,4.6,1509,2022-03-29
+P1065,Kraft Cheese #65,Dairy & Eggs,Cheese,KDD,7.36,Budget,365,2.7,1544,2022-07-01
+P1066,Rainbow Cheese #66,Dairy & Eggs,Cheese,Dettol,7.32,Budget,7,3.9,1074,2024-10-28
+P1067,Lipton Cheese #67,Dairy & Eggs,Cheese,Puck,9.6,Budget,7,4.2,1065,2021-10-07
+P1068,Al Kabeer Cheese #68,Dairy & Eggs,Cheese,Puck,12.0,Mid-Range,365,2.4,611,2024-01-28
+P1069,Doritos Yogurt #69,Dairy & Eggs,Yogurt,Al Ain,3.46,Budget,60,3.4,1189,2024-07-03
+P1070,Persil Yogurt #70,Dairy & Eggs,Yogurt,Al Ain,2.0,Budget,5,3.6,1763,2022-07-20
+P1071,Doritos Yogurt #71,Dairy & Eggs,Yogurt,Lipton,12.23,Mid-Range,30,5.0,1820,2022-09-18
+P1072,Pampers Yogurt #72,Dairy & Eggs,Yogurt,Almarai,7.74,Budget,14,3.0,1414,2023-02-24
+P1073,Lays Yogurt #73,Dairy & Eggs,Yogurt,Nadec,10.59,Mid-Range,5,5.0,1710,2023-01-29
+P1074,Nada Yogurt #74,Dairy & Eggs,Yogurt,Lacnor,2.14,Budget,180,3.4,412,2022-06-09
+P1075,Kraft Yogurt #75,Dairy & Eggs,Yogurt,Nada,2.87,Budget,365,4.1,1804,2022-05-27
+P1076,Puck Yogurt #76,Dairy & Eggs,Yogurt,Americana,4.74,Budget,7,3.7,1911,2022-04-16
+P1077,Masafi Yogurt #77,Dairy & Eggs,Yogurt,Persil,7.8,Budget,365,3.5,1828,2022-12-28
+P1078,Lurpak Yogurt #78,Dairy & Eggs,Yogurt,Huggies,2.83,Budget,365,4.6,1726,2022-07-29
+P1079,Oreo Eggs #79,Dairy & Eggs,Eggs,Rainbow,5.31,Budget,90,4.2,686,2023-04-18
+P1080,Dettol Eggs #80,Dairy & Eggs,Eggs,Doritos,9.81,Budget,365,2.5,617,2023-09-20
+P1081,Puck Eggs #81,Dairy & Eggs,Eggs,Lacnor,4.79,Budget,14,4.3,1648,2021-01-05
+P1082,Mai Dubai Eggs #82,Dairy & Eggs,Eggs,Nestle,19.46,Mid-Range,90,3.7,996,2023-06-03
+P1083,Masafi Eggs #83,Dairy & Eggs,Eggs,KDD,27.97,Mid-Range,60,3.3,940,2022-10-18
+P1084,Ariel Eggs #84,Dairy & Eggs,Eggs,Lays,7.48,Budget,365,4.1,1698,2022-10-19
+P1085,Ariel Eggs #85,Dairy & Eggs,Eggs,Al Rawabi,2.6,Budget,14,2.4,1086,2024-10-01
+P1086,Pampers Eggs #86,Dairy & Eggs,Eggs,Nada,11.07,Mid-Range,60,4.4,1017,2023-12-18
+P1087,Al Ain Eggs #87,Dairy & Eggs,Eggs,Nadec,6.74,Budget,365,4.4,1124,2024-02-16
+P1088,Pampers Eggs #88,Dairy & Eggs,Eggs,Nadec,15.74,Mid-Range,14,4.7,1913,2023-06-16
+P1089,Al Ain Butter #89,Dairy & Eggs,Butter,Nada,40.36,Premium,3,4.5,251,2024-01-05
+P1090,Pampers Butter #90,Dairy & Eggs,Butter,Nada,2.87,Budget,3,4.0,1114,2022-11-28
+P1091,Oreo Butter #91,Dairy & Eggs,Butter,Kelloggs,4.29,Budget,5,3.6,1075,2023-10-06
+P1092,Sadia Butter #92,Dairy & Eggs,Butter,Pampers,12.93,Mid-Range,30,4.2,1640,2024-08-05
+P1093,Masafi Butter #93,Dairy & Eggs,Butter,Persil,40.06,Premium,14,3.5,1790,2022-06-06
+P1094,Al Kabeer Butter #94,Dairy & Eggs,Butter,Americana,7.4,Budget,180,4.3,1020,2024-09-10
+P1095,Pampers Butter #95,Dairy & Eggs,Butter,Philadelphia,16.09,Mid-Range,180,4.9,340,2021-09-15
+P1096,Philadelphia Butter #96,Dairy & Eggs,Butter,Lux,7.81,Budget,14,3.5,1503,2023-05-02
+P1097,Al Rawabi Butter #97,Dairy & Eggs,Butter,Al Rawabi,2.0,Budget,90,4.7,384,2023-08-15
+P1098,Lipton Butter #98,Dairy & Eggs,Butter,Lux,12.8,Mid-Range,90,3.8,1863,2024-04-06
+P1099,Ariel Bread #99,Bakery,Bread,Oreo,5.01,Budget,3,3.9,780,2022-08-28
+P1100,Masafi Bread #100,Bakery,Bread,KDD,4.61,Budget,5,4.4,1224,2023-04-06
+P1101,Almarai Bread #101,Bakery,Bread,Dove,15.83,Mid-Range,60,4.8,417,2024-10-31
+P1102,Philadelphia Bread #102,Bakery,Bread,Oreo,14.16,Mid-Range,5,4.2,765,2022-11-07
+P1103,Pampers Bread #103,Bakery,Bread,Dettol,11.49,Mid-Range,14,3.3,196,2023-01-09
+P1104,Al Kabeer Bread #104,Bakery,Bread,Ariel,7.27,Budget,7,3.9,982,2023-10-06
+P1105,Lux Bread #105,Bakery,Bread,Lurpak,4.33,Budget,30,4.6,1218,2021-02-06
+P1106,Ariel Bread #106,Bakery,Bread,Pampers,13.62,Mid-Range,5,3.0,283,2021-08-05
+P1107,Ariel Bread #107,Bakery,Bread,Philadelphia,4.48,Budget,365,2.9,1909,2021-03-03
+P1108,Al Rawabi Bread #108,Bakery,Bread,Almarai,2.0,Budget,365,3.7,401,2022-11-30
+P1109,Kraft Bread #109,Bakery,Bread,Al Ain,10.11,Mid-Range,5,3.7,739,2023-05-01
+P1110,Doritos Bread #110,Bakery,Bread,Puck,3.73,Budget,14,3.8,1097,2024-01-28
+P1111,Lurpak Bread #111,Bakery,Bread,Lux,18.15,Mid-Range,180,5.0,1497,2024-03-20
+P1112,Persil Bread #112,Bakery,Bread,Dettol,5.62,Budget,90,4.0,1721,2023-12-02
+P1113,Lays Bread #113,Bakery,Bread,Almarai,31.53,Mid-Range,7,4.1,755,2022-08-11
+P1114,Dove Bread #114,Bakery,Bread,Al Ain,15.05,Mid-Range,90,4.1,917,2024-06-30
+P1115,Huggies Pastries #115,Bakery,Pastries,Doritos,6.01,Budget,180,4.6,1196,2021-06-19
+P1116,Nestle Pastries #116,Bakery,Pastries,Lux,15.01,Mid-Range,365,3.6,1222,2021-01-29
+P1117,Masafi Pastries #117,Bakery,Pastries,Mai Dubai,2.32,Budget,180,2.8,504,2022-05-26
+P1118,Americana Pastries #118,Bakery,Pastries,Dettol,8.58,Budget,30,4.4,1832,2023-12-30
+P1119,Dettol Pastries #119,Bakery,Pastries,Almarai,6.48,Budget,365,5.0,880,2024-04-20
+P1120,Almarai Pastries #120,Bakery,Pastries,Lacnor,3.27,Budget,60,4.4,1559,2021-02-08
+P1121,Almarai Pastries #121,Bakery,Pastries,Almarai,2.08,Budget,180,3.5,758,2024-05-28
+P1122,Sadia Pastries #122,Bakery,Pastries,Doritos,26.37,Mid-Range,365,4.1,460,2023-04-09
+P1123,Lurpak Pastries #123,Bakery,Pastries,Almarai,11.52,Mid-Range,365,4.3,391,2021-12-14
+P1124,Nada Pastries #124,Bakery,Pastries,Oreo,6.77,Budget,7,4.1,1397,2023-04-04
+P1125,Nada Pastries #125,Bakery,Pastries,Rainbow,2.0,Budget,5,4.6,62,2022-11-16
+P1126,Masafi Pastries #126,Bakery,Pastries,Oreo,7.81,Budget,14,4.5,207,2023-02-03
+P1127,Dove Pastries #127,Bakery,Pastries,Al Rawabi,7.99,Budget,14,3.3,1560,2021-02-16
+P1128,Nadec Pastries #128,Bakery,Pastries,Rainbow,23.59,Mid-Range,3,4.5,1443,2024-10-28
+P1129,Rainbow Pastries #129,Bakery,Pastries,Nada,3.6,Budget,90,4.9,475,2023-08-29
+P1130,Masafi Pastries #130,Bakery,Pastries,Nadec,6.76,Budget,365,4.5,672,2022-01-08
+P1131,Kelloggs Cakes #131,Bakery,Cakes,Doritos,3.77,Budget,30,3.4,94,2022-11-29
+P1132,Dettol Cakes #132,Bakery,Cakes,Masafi,4.03,Budget,60,3.2,873,2021-02-10
+P1133,Pampers Cakes #133,Bakery,Cakes,Huggies,5.7,Budget,90,2.6,963,2024-03-14
+P1134,Americana Cakes #134,Bakery,Cakes,Masafi,4.41,Budget,30,2.7,465,2023-01-02
+P1135,Ariel Cakes #135,Bakery,Cakes,Kelloggs,4.41,Budget,5,3.5,1575,2024-06-30
+P1136,Al Ain Cakes #136,Bakery,Cakes,Ariel,6.7,Budget,5,4.3,713,2022-03-26
+P1137,Nada Cakes #137,Bakery,Cakes,Al Kabeer,2.76,Budget,14,3.9,1020,2022-01-09
+P1138,Sadia Cakes #138,Bakery,Cakes,Huggies,9.36,Budget,7,3.0,67,2024-05-25
+P1139,Doritos Cakes #139,Bakery,Cakes,Lipton,6.74,Budget,5,4.7,1127,2022-05-26
+P1140,Lays Cakes #140,Bakery,Cakes,Pampers,6.77,Budget,60,3.8,522,2022-04-21
+P1141,Nestle Cakes #141,Bakery,Cakes,Lurpak,7.42,Budget,180,3.8,1001,2022-11-08
+P1142,Kraft Cakes #142,Bakery,Cakes,Al Kabeer,4.41,Budget,30,4.7,1113,2024-01-07
+P1143,Rainbow Cakes #143,Bakery,Cakes,Philadelphia,4.37,Budget,365,3.3,689,2022-12-18
+P1144,Al Ain Cakes #144,Bakery,Cakes,Masafi,9.65,Budget,365,3.6,492,2021-02-03
+P1145,Nestle Cakes #145,Bakery,Cakes,Doritos,3.81,Budget,5,3.6,158,2021-09-07
+P1146,Lays Cakes #146,Bakery,Cakes,Americana,25.56,Mid-Range,30,3.9,1919,2024-08-22
+P1147,Al Rawabi Water #147,Beverages,Water,Lays,8.47,Budget,90,4.6,393,2023-09-17
+P1148,Lacnor Water #148,Beverages,Water,Al Kabeer,6.05,Budget,180,4.5,628,2023-02-06
+P1149,Huggies Water #149,Beverages,Water,Nestle,24.32,Mid-Range,180,4.4,439,2021-04-13
+P1150,Mai Dubai Water #150,Beverages,Water,Kelloggs,17.23,Mid-Range,180,2.6,802,2024-09-20
+P1151,Masafi Water #151,Beverages,Water,KDD,15.01,Mid-Range,365,3.7,1336,2021-09-06
+P1152,Sadia Water #152,Beverages,Water,Persil,24.58,Mid-Range,365,3.9,1024,2022-06-26
+P1153,Lays Water #153,Beverages,Water,Doritos,16.2,Mid-Range,90,4.0,137,2023-03-08
+P1154,Nada Water #154,Beverages,Water,KDD,2.0,Budget,730,3.8,988,2021-03-10
+P1155,Kraft Water #155,Beverages,Water,Huggies,7.35,Budget,90,4.1,209,2021-05-06
+P1156,Al Ain Water #156,Beverages,Water,Kelloggs,2.6,Budget,180,4.3,1911,2021-04-21
+P1157,KDD Water #157,Beverages,Water,Huggies,3.06,Budget,180,4.1,1724,2021-10-08
+P1158,Lacnor Water #158,Beverages,Water,Ariel,7.03,Budget,730,4.5,97,2022-11-03
+P1159,Al Kabeer Juices #159,Beverages,Juices,Al Ain,5.17,Budget,90,3.5,1431,2023-10-26
+P1160,Nada Juices #160,Beverages,Juices,Lays,2.65,Budget,180,2.9,538,2023-04-18
+P1161,Al Kabeer Juices #161,Beverages,Juices,Almarai,6.78,Budget,365,3.1,350,2023-12-06
+P1162,Nadec Juices #162,Beverages,Juices,Al Kabeer,7.74,Budget,180,2.2,1841,2024-01-02
+P1163,Lux Juices #163,Beverages,Juices,Americana,7.15,Budget,90,3.2,218,2021-08-27
+P1164,Nestle Juices #164,Beverages,Juices,Lipton,2.77,Budget,90,3.8,52,2021-12-03
+P1165,Lays Juices #165,Beverages,Juices,Lipton,14.6,Mid-Range,180,3.4,629,2024-06-30
+P1166,Masafi Juices #166,Beverages,Juices,Pampers,7.53,Budget,90,4.0,60,2022-12-27
+P1167,Lipton Juices #167,Beverages,Juices,Puck,13.67,Mid-Range,730,3.3,82,2024-05-24
+P1168,Rainbow Juices #168,Beverages,Juices,Lacnor,6.04,Budget,180,3.9,703,2024-08-28
+P1169,Doritos Juices #169,Beverages,Juices,Doritos,10.18,Mid-Range,180,3.3,923,2023-01-20
+P1170,Oreo Juices #170,Beverages,Juices,Lurpak,5.55,Budget,180,4.4,1911,2023-11-05
+P1171,Lays Soft Drinks #171,Beverages,Soft Drinks,Lux,9.35,Budget,90,3.5,32,2022-12-15
+P1172,Lurpak Soft Drinks #172,Beverages,Soft Drinks,Lacnor,19.14,Mid-Range,365,4.0,90,2021-05-06
+P1173,Philadelphia Soft Drinks #173,Beverages,Soft Drinks,Doritos,28.49,Mid-Range,730,4.4,71,2021-08-21
+P1174,Philadelphia Soft Drinks #174,Beverages,Soft Drinks,Masafi,3.67,Budget,180,3.8,115,2021-02-03
+P1175,Huggies Soft Drinks #175,Beverages,Soft Drinks,Lurpak,39.16,Mid-Range,90,4.8,752,2022-08-18
+P1176,Dove Soft Drinks #176,Beverages,Soft Drinks,Oreo,2.18,Budget,90,3.0,696,2024-07-29
+P1177,Oreo Soft Drinks #177,Beverages,Soft Drinks,Persil,2.38,Budget,180,4.2,319,2023-05-27
+P1178,Dettol Soft Drinks #178,Beverages,Soft Drinks,Kraft,10.99,Mid-Range,730,3.7,1465,2022-10-24
+P1179,Lipton Soft Drinks #179,Beverages,Soft Drinks,Nestle,4.51,Budget,180,2.9,628,2022-05-31
+P1180,Pampers Soft Drinks #180,Beverages,Soft Drinks,Al Ain,13.99,Mid-Range,180,3.9,1875,2022-10-08
+P1181,Dove Soft Drinks #181,Beverages,Soft Drinks,Kelloggs,7.34,Budget,365,4.1,951,2022-07-28
+P1182,Oreo Soft Drinks #182,Beverages,Soft Drinks,Nada,8.0,Budget,365,4.3,1420,2023-11-16
+P1183,Lipton Coffee & Tea #183,Beverages,Coffee & Tea,KDD,15.59,Mid-Range,730,3.3,330,2024-02-16
+P1184,Masafi Coffee & Tea #184,Beverages,Coffee & Tea,Kraft,3.57,Budget,365,4.2,536,2021-04-23
+P1185,Al Ain Coffee & Tea #185,Beverages,Coffee & Tea,Al Rawabi,32.38,Mid-Range,365,4.0,658,2021-11-16
+P1186,Lurpak Coffee & Tea #186,Beverages,Coffee & Tea,Nadec,7.47,Budget,365,3.2,1539,2023-04-25
+P1187,Almarai Coffee & Tea #187,Beverages,Coffee & Tea,Al Rawabi,4.39,Budget,730,3.8,694,2021-01-10
+P1188,Lipton Coffee & Tea #188,Beverages,Coffee & Tea,Lacnor,36.51,Mid-Range,365,5.0,902,2021-01-13
+P1189,Lux Coffee & Tea #189,Beverages,Coffee & Tea,Rainbow,4.64,Budget,90,4.0,1347,2021-11-25
+P1190,Dove Coffee & Tea #190,Beverages,Coffee & Tea,Lays,11.29,Mid-Range,180,4.8,1948,2024-01-24
+P1191,Huggies Coffee & Tea #191,Beverages,Coffee & Tea,Almarai,8.46,Budget,730,3.9,592,2022-05-28
+P1192,Al Ain Coffee & Tea #192,Beverages,Coffee & Tea,Sadia,10.92,Mid-Range,180,4.9,1860,2024-10-04
+P1193,Lipton Coffee & Tea #193,Beverages,Coffee & Tea,Lux,9.68,Budget,90,3.5,274,2023-03-09
+P1194,Masafi Coffee & Tea #194,Beverages,Coffee & Tea,Doritos,5.19,Budget,365,4.1,855,2021-03-19
+P1195,Rainbow Chips #195,Snacks,Chips,Kelloggs,2.0,Budget,90,4.1,1777,2023-12-02
+P1196,Lacnor Chips #196,Snacks,Chips,Lays,19.32,Mid-Range,365,3.5,1323,2022-09-08
+P1197,Sadia Chips #197,Snacks,Chips,Nestle,4.3,Budget,730,2.2,426,2023-11-13
+P1198,Kelloggs Chips #198,Snacks,Chips,Dove,36.54,Mid-Range,365,2.7,149,2024-06-02
+P1199,Al Kabeer Chips #199,Snacks,Chips,Americana,12.8,Mid-Range,180,2.2,825,2021-04-14
+P1200,Lux Chips #200,Snacks,Chips,Masafi,3.64,Budget,730,4.0,1674,2022-08-02
+P1201,Masafi Chips #201,Snacks,Chips,Lacnor,2.26,Budget,180,4.6,1476,2023-11-05
+P1202,Rainbow Chips #202,Snacks,Chips,Nadec,7.31,Budget,365,4.5,482,2024-06-08
+P1203,Dove Chips #203,Snacks,Chips,Al Kabeer,14.33,Mid-Range,90,4.5,1439,2023-08-09
+P1204,Nestle Chips #204,Snacks,Chips,Nestle,5.58,Budget,180,3.5,1862,2022-06-01
+P1205,Lux Chips #205,Snacks,Chips,Philadelphia,5.6,Budget,365,4.4,810,2024-03-28
+P1206,Ariel Chips #206,Snacks,Chips,Ariel,3.96,Budget,730,2.3,952,2021-01-15
+P1207,Masafi Biscuits #207,Snacks,Biscuits,Dettol,5.18,Budget,730,4.1,51,2021-11-20
+P1208,Philadelphia Biscuits #208,Snacks,Biscuits,Lays,15.98,Mid-Range,180,4.5,99,2022-09-19
+P1209,Masafi Biscuits #209,Snacks,Biscuits,Nada,10.29,Mid-Range,365,5.0,1839,2024-07-30
+P1210,Sadia Biscuits #210,Snacks,Biscuits,Masafi,3.17,Budget,365,3.4,1870,2023-05-22
+P1211,Nada Biscuits #211,Snacks,Biscuits,Kraft,2.0,Budget,180,4.8,819,2021-12-12
+P1212,Masafi Biscuits #212,Snacks,Biscuits,Nestle,8.54,Budget,180,5.0,989,2023-09-20
+P1213,Philadelphia Biscuits #213,Snacks,Biscuits,Dettol,8.06,Budget,180,4.3,1352,2024-03-02
+P1214,Al Ain Biscuits #214,Snacks,Biscuits,Almarai,8.79,Budget,180,4.1,1134,2023-10-06
+P1215,Persil Biscuits #215,Snacks,Biscuits,Rainbow,33.3,Mid-Range,90,4.7,1018,2021-02-20
+P1216,Ariel Biscuits #216,Snacks,Biscuits,Lux,8.56,Budget,180,3.9,1754,2023-02-18
+P1217,Mai Dubai Biscuits #217,Snacks,Biscuits,Mai Dubai,3.35,Budget,730,3.7,1433,2024-10-01
+P1218,Persil Biscuits #218,Snacks,Biscuits,Dove,56.31,Premium,180,4.2,665,2023-08-27
+P1219,Americana Chocolates #219,Snacks,Chocolates,KDD,3.91,Budget,90,4.3,317,2021-04-27
+P1220,Lays Chocolates #220,Snacks,Chocolates,Puck,3.55,Budget,90,4.0,248,2022-06-21
+P1221,Puck Chocolates #221,Snacks,Chocolates,Lux,2.13,Budget,180,1.9,351,2022-10-02
+P1222,Lurpak Chocolates #222,Snacks,Chocolates,Philadelphia,6.0,Budget,730,2.7,1207,2024-04-20
+P1223,Almarai Chocolates #223,Snacks,Chocolates,Al Kabeer,7.35,Budget,180,2.9,714,2024-03-30
+P1224,Doritos Chocolates #224,Snacks,Chocolates,Oreo,17.54,Mid-Range,90,2.5,666,2022-10-28
+P1225,Ariel Chocolates #225,Snacks,Chocolates,Americana,5.96,Budget,730,3.0,480,2023-12-23
+P1226,Masafi Chocolates #226,Snacks,Chocolates,Sadia,7.39,Budget,365,3.9,1797,2024-03-10
+P1227,Puck Chocolates #227,Snacks,Chocolates,Lays,2.48,Budget,730,2.5,956,2022-12-24
+P1228,Rainbow Chocolates #228,Snacks,Chocolates,Kraft,5.16,Budget,730,2.3,1333,2022-03-05
+P1229,Kraft Chocolates #229,Snacks,Chocolates,Doritos,17.62,Mid-Range,730,3.5,1047,2021-01-18
+P1230,Lays Chocolates #230,Snacks,Chocolates,Lurpak,16.98,Mid-Range,730,3.1,1014,2021-07-13
+P1231,Ariel Nuts #231,Snacks,Nuts,Huggies,2.16,Budget,180,5.0,1250,2023-08-05
+P1232,Kraft Nuts #232,Snacks,Nuts,KDD,5.62,Budget,365,3.5,929,2021-02-24
+P1233,Puck Nuts #233,Snacks,Nuts,Puck,6.55,Budget,730,4.2,1486,2021-06-11
+P1234,KDD Nuts #234,Snacks,Nuts,Pampers,5.53,Budget,365,3.8,1504,2024-04-16
+P1235,Ariel Nuts #235,Snacks,Nuts,Nada,6.02,Budget,365,4.5,317,2023-01-29
+P1236,Pampers Nuts #236,Snacks,Nuts,Huggies,3.99,Budget,365,3.4,1795,2021-11-24
+P1237,Kelloggs Nuts #237,Snacks,Nuts,Lays,8.0,Budget,90,3.7,583,2023-12-11
+P1238,Americana Nuts #238,Snacks,Nuts,Americana,2.78,Budget,180,4.3,1446,2021-04-06
+P1239,Dove Nuts #239,Snacks,Nuts,Mai Dubai,7.47,Budget,180,3.8,818,2022-05-06
+P1240,Mai Dubai Nuts #240,Snacks,Nuts,Dettol,5.93,Budget,90,3.1,827,2023-08-02
+P1241,Lux Nuts #241,Snacks,Nuts,Lux,8.89,Budget,365,3.3,1701,2021-05-31
+P1242,Al Kabeer Nuts #242,Snacks,Nuts,Ariel,9.62,Budget,730,4.4,86,2022-05-29
+P1243,Almarai Chicken #243,Meat & Seafood,Chicken,Dettol,8.86,Budget,90,4.3,1551,2023-01-16
+P1244,Dove Chicken #244,Meat & Seafood,Chicken,Lays,5.12,Budget,3,4.6,1147,2022-01-31
+P1245,Oreo Chicken #245,Meat & Seafood,Chicken,Lays,5.05,Budget,90,4.5,1284,2023-06-24
+P1246,Persil Chicken #246,Meat & Seafood,Chicken,Al Ain,2.0,Budget,60,3.4,1528,2023-05-04
+P1247,Nestle Chicken #247,Meat & Seafood,Chicken,Puck,5.56,Budget,90,4.0,1186,2022-09-24
+P1248,Oreo Chicken #248,Meat & Seafood,Chicken,Lays,7.27,Budget,90,4.0,740,2022-12-22
+P1249,Al Kabeer Chicken #249,Meat & Seafood,Chicken,Lacnor,45.73,Premium,365,1.9,525,2022-07-06
+P1250,Philadelphia Chicken #250,Meat & Seafood,Chicken,Rainbow,3.91,Budget,14,4.9,1229,2024-07-25
+P1251,Persil Chicken #251,Meat & Seafood,Chicken,Pampers,2.64,Budget,30,3.9,1755,2023-03-16
+P1252,Lux Chicken #252,Meat & Seafood,Chicken,Persil,8.64,Budget,3,3.1,938,2021-02-03
+P1253,Dove Chicken #253,Meat & Seafood,Chicken,Kelloggs,36.76,Mid-Range,90,4.3,1406,2022-08-11
+P1254,Lacnor Chicken #254,Meat & Seafood,Chicken,Lurpak,9.07,Budget,180,4.5,272,2023-04-01
+P1255,Doritos Beef #255,Meat & Seafood,Beef,Americana,2.0,Budget,365,2.9,638,2021-05-10
+P1256,Al Ain Beef #256,Meat & Seafood,Beef,Doritos,11.18,Mid-Range,90,3.3,823,2022-11-24
+P1257,Nadec Beef #257,Meat & Seafood,Beef,Nadec,2.35,Budget,3,4.2,153,2024-08-12
+P1258,Nada Beef #258,Meat & Seafood,Beef,KDD,14.29,Mid-Range,90,3.7,191,2023-03-18
+P1259,Americana Beef #259,Meat & Seafood,Beef,Oreo,11.39,Mid-Range,180,3.9,59,2022-09-15
+P1260,Lurpak Beef #260,Meat & Seafood,Beef,Almarai,2.0,Budget,30,3.7,755,2024-03-17
+P1261,Dove Beef #261,Meat & Seafood,Beef,Kelloggs,9.27,Budget,14,3.6,1877,2023-08-16
+P1262,Ariel Beef #262,Meat & Seafood,Beef,Kelloggs,5.03,Budget,60,5.0,77,2022-12-14
+P1263,Puck Beef #263,Meat & Seafood,Beef,Lays,3.2,Budget,90,2.6,65,2023-07-28
+P1264,Huggies Beef #264,Meat & Seafood,Beef,Puck,3.47,Budget,90,5.0,1831,2021-05-11
+P1265,Huggies Beef #265,Meat & Seafood,Beef,Kraft,5.78,Budget,5,3.3,1983,2023-03-28
+P1266,Persil Beef #266,Meat & Seafood,Beef,Al Ain,2.57,Budget,365,3.6,1346,2021-08-04
+P1267,Almarai Fish #267,Meat & Seafood,Fish,Lipton,12.85,Mid-Range,14,4.7,1109,2022-01-09
+P1268,KDD Fish #268,Meat & Seafood,Fish,Nada,7.63,Budget,3,3.8,470,2024-01-18
+P1269,Puck Fish #269,Meat & Seafood,Fish,Al Ain,21.84,Mid-Range,14,4.5,493,2021-02-16
+P1270,Dettol Fish #270,Meat & Seafood,Fish,Kraft,8.03,Budget,3,3.4,405,2023-09-08
+P1271,Rainbow Fish #271,Meat & Seafood,Fish,Americana,2.0,Budget,14,3.6,339,2022-09-21
+P1272,Americana Fish #272,Meat & Seafood,Fish,Persil,3.84,Budget,5,4.2,1868,2023-04-07
+P1273,Nadec Fish #273,Meat & Seafood,Fish,Dettol,7.16,Budget,180,4.3,994,2022-01-07
+P1274,Mai Dubai Fish #274,Meat & Seafood,Fish,Huggies,5.09,Budget,60,4.4,1518,2022-09-07
+P1275,Lurpak Fish #275,Meat & Seafood,Fish,Rainbow,7.98,Budget,5,3.5,999,2022-09-12
+P1276,Puck Fish #276,Meat & Seafood,Fish,Kraft,3.21,Budget,7,4.7,187,2023-09-10
+P1277,Nestle Fish #277,Meat & Seafood,Fish,Al Rawabi,6.36,Budget,3,3.5,501,2024-10-04
+P1278,Doritos Fish #278,Meat & Seafood,Fish,Nestle,19.77,Mid-Range,90,4.4,1189,2021-01-16
+P1279,Dove Lamb #279,Meat & Seafood,Lamb,Mai Dubai,16.58,Mid-Range,14,3.7,1478,2021-11-07
+P1280,Nada Lamb #280,Meat & Seafood,Lamb,Nadec,9.07,Budget,14,3.8,255,2023-01-29
+P1281,Al Rawabi Lamb #281,Meat & Seafood,Lamb,Mai Dubai,5.21,Budget,30,3.0,1636,2023-11-29
+P1282,Oreo Lamb #282,Meat & Seafood,Lamb,Masafi,59.04,Premium,5,3.3,1776,2024-06-16
+P1283,Philadelphia Lamb #283,Meat & Seafood,Lamb,Nadec,3.88,Budget,3,3.7,1387,2021-12-06
+P1284,Lipton Lamb #284,Meat & Seafood,Lamb,Al Kabeer,3.68,Budget,90,4.4,7,2024-03-11
+P1285,Masafi Lamb #285,Meat & Seafood,Lamb,Lipton,13.86,Mid-Range,5,3.5,150,2021-10-20
+P1286,Sadia Lamb #286,Meat & Seafood,Lamb,KDD,7.19,Budget,60,4.0,821,2024-09-29
+P1287,Al Ain Lamb #287,Meat & Seafood,Lamb,Oreo,4.4,Budget,90,4.4,1408,2022-12-11
+P1288,Kraft Lamb #288,Meat & Seafood,Lamb,Persil,14.37,Mid-Range,5,3.9,230,2024-03-22
+P1289,Lux Lamb #289,Meat & Seafood,Lamb,Lipton,6.84,Budget,180,3.8,1612,2024-08-26
+P1290,Mai Dubai Lamb #290,Meat & Seafood,Lamb,Americana,9.31,Budget,90,5.0,1358,2024-02-05
+P1291,Lurpak Cleaning Supplies #291,Household,Cleaning Supplies,Lacnor,4.88,Budget,365,3.4,757,2022-05-21
+P1292,Rainbow Cleaning Supplies #292,Household,Cleaning Supplies,Philadelphia,4.44,Budget,730,4.6,1801,2021-02-23
+P1293,Ariel Cleaning Supplies #293,Household,Cleaning Supplies,Lux,5.48,Budget,365,3.0,694,2023-04-30
+P1294,Kelloggs Cleaning Supplies #294,Household,Cleaning Supplies,Oreo,3.8,Budget,180,4.1,164,2023-02-20
+P1295,Kraft Cleaning Supplies #295,Household,Cleaning Supplies,Doritos,8.69,Budget,90,2.7,333,2022-08-03
+P1296,Huggies Cleaning Supplies #296,Household,Cleaning Supplies,Lays,3.77,Budget,730,3.9,1645,2023-08-10
+P1297,Pampers Cleaning Supplies #297,Household,Cleaning Supplies,Puck,4.53,Budget,730,3.5,1677,2024-05-03
+P1298,Nadec Cleaning Supplies #298,Household,Cleaning Supplies,Rainbow,11.41,Mid-Range,730,4.6,1289,2023-08-13
+P1299,Kelloggs Cleaning Supplies #299,Household,Cleaning Supplies,Al Ain,3.41,Budget,730,3.2,42,2021-11-24
+P1300,Oreo Cleaning Supplies #300,Household,Cleaning Supplies,Kelloggs,6.12,Budget,180,3.9,918,2022-03-30
+P1301,Persil Cleaning Supplies #301,Household,Cleaning Supplies,Dettol,15.27,Mid-Range,365,3.8,1351,2023-11-30
+P1302,Philadelphia Cleaning Supplies #302,Household,Cleaning Supplies,Huggies,12.75,Mid-Range,365,5.0,1777,2024-08-05
+P1303,Huggies Cleaning Supplies #303,Household,Cleaning Supplies,Lays,8.95,Budget,365,4.0,1196,2021-04-02
+P1304,Al Kabeer Cleaning Supplies #304,Household,Cleaning Supplies,Al Ain,14.24,Mid-Range,180,4.2,1373,2024-04-08
+P1305,Nada Cleaning Supplies #305,Household,Cleaning Supplies,Pampers,9.53,Budget,730,3.4,704,2021-01-07
+P1306,Persil Cleaning Supplies #306,Household,Cleaning Supplies,Al Kabeer,16.98,Mid-Range,180,3.7,430,2022-11-03
+P1307,Mai Dubai Paper Products #307,Household,Paper Products,Persil,19.4,Mid-Range,730,3.2,1955,2021-03-23
+P1308,Ariel Paper Products #308,Household,Paper Products,Philadelphia,10.33,Mid-Range,90,4.1,1552,2021-10-22
+P1309,Nada Paper Products #309,Household,Paper Products,Nestle,12.45,Mid-Range,180,2.5,364,2024-05-31
+P1310,Dove Paper Products #310,Household,Paper Products,Mai Dubai,6.19,Budget,180,3.9,471,2022-02-18
+P1311,Nestle Paper Products #311,Household,Paper Products,Masafi,7.12,Budget,365,3.6,998,2022-07-26
+P1312,Persil Paper Products #312,Household,Paper Products,Al Kabeer,11.54,Mid-Range,365,3.3,282,2024-05-04
+P1313,Lux Paper Products #313,Household,Paper Products,Lacnor,11.19,Mid-Range,365,3.4,1352,2023-01-01
+P1314,Lipton Paper Products #314,Household,Paper Products,Mai Dubai,10.94,Mid-Range,730,3.4,405,2023-06-05
+P1315,Huggies Paper Products #315,Household,Paper Products,Nestle,19.22,Mid-Range,365,2.7,214,2021-11-02
+P1316,Pampers Paper Products #316,Household,Paper Products,Al Rawabi,37.2,Mid-Range,180,3.3,952,2022-01-16
+P1317,Kelloggs Paper Products #317,Household,Paper Products,Al Rawabi,4.47,Budget,180,3.7,1061,2023-05-29
+P1318,Dettol Paper Products #318,Household,Paper Products,Dettol,25.85,Mid-Range,730,3.8,574,2023-01-08
+P1319,Huggies Paper Products #319,Household,Paper Products,Lacnor,2.76,Budget,365,3.7,891,2023-03-08
+P1320,Al Rawabi Paper Products #320,Household,Paper Products,Kraft,3.26,Budget,180,4.3,1158,2023-09-01
+P1321,Nestle Paper Products #321,Household,Paper Products,Pampers,5.02,Budget,365,3.6,1735,2023-04-29
+P1322,Lurpak Paper Products #322,Household,Paper Products,Nestle,10.43,Mid-Range,90,4.0,873,2021-03-25
+P1323,Mai Dubai Detergent #323,Household,Detergent,Al Kabeer,2.18,Budget,180,3.3,1415,2024-07-04
+P1324,Huggies Detergent #324,Household,Detergent,Almarai,18.74,Mid-Range,90,3.1,1190,2024-04-01
+P1325,Al Kabeer Detergent #325,Household,Detergent,Nestle,7.84,Budget,180,3.6,1552,2024-07-18
+P1326,KDD Detergent #326,Household,Detergent,Oreo,55.28,Premium,730,2.6,1088,2022-03-06
+P1327,Al Rawabi Detergent #327,Household,Detergent,Oreo,6.51,Budget,90,3.0,1590,2021-07-18
+P1328,Nadec Detergent #328,Household,Detergent,Nestle,3.47,Budget,730,4.0,697,2022-01-13
+P1329,Persil Detergent #329,Household,Detergent,Ariel,20.07,Mid-Range,365,4.1,1181,2023-01-04
+P1330,Lurpak Detergent #330,Household,Detergent,Almarai,4.3,Budget,365,5.0,1706,2023-10-14
+P1331,Oreo Detergent #331,Household,Detergent,Persil,10.55,Mid-Range,90,3.1,505,2021-04-27
+P1332,Kraft Detergent #332,Household,Detergent,Nada,2.31,Budget,730,5.0,1092,2022-12-22
+P1333,Persil Detergent #333,Household,Detergent,Nada,5.15,Budget,90,2.1,611,2021-06-15
+P1334,Americana Detergent #334,Household,Detergent,Americana,16.76,Mid-Range,365,3.0,805,2021-04-12
+P1335,Nada Detergent #335,Household,Detergent,Pampers,9.08,Budget,90,4.1,1719,2024-01-17
+P1336,Al Kabeer Detergent #336,Household,Detergent,Puck,5.7,Budget,730,3.8,1338,2024-01-15
+P1337,Rainbow Detergent #337,Household,Detergent,Rainbow,4.54,Budget,180,3.0,940,2021-08-30
+P1338,Puck Detergent #338,Household,Detergent,Sadia,8.73,Budget,730,2.4,805,2022-08-12
+P1339,Ariel Diapers #339,Baby Products,Diapers,Doritos,6.4,Budget,730,3.3,198,2024-04-04
+P1340,Nestle Diapers #340,Baby Products,Diapers,Oreo,31.13,Mid-Range,730,4.2,147,2023-09-21
+P1341,Nestle Diapers #341,Baby Products,Diapers,Nadec,8.02,Budget,90,3.6,1900,2021-11-13
+P1342,Rainbow Diapers #342,Baby Products,Diapers,Lacnor,31.49,Mid-Range,90,4.1,1292,2024-09-03
+P1343,Puck Diapers #343,Baby Products,Diapers,Dettol,11.18,Mid-Range,180,4.7,387,2021-01-07
+P1344,Huggies Diapers #344,Baby Products,Diapers,Masafi,12.44,Mid-Range,90,5.0,1418,2024-08-30
+P1345,Lurpak Diapers #345,Baby Products,Diapers,Pampers,6.82,Budget,180,4.8,1155,2023-03-20
+P1346,Al Kabeer Diapers #346,Baby Products,Diapers,Nada,6.19,Budget,180,2.9,982,2023-10-11
+P1347,Al Ain Diapers #347,Baby Products,Diapers,Lux,29.54,Mid-Range,730,4.6,1565,2024-08-17
+P1348,Mai Dubai Diapers #348,Baby Products,Diapers,Rainbow,2.13,Budget,730,4.5,754,2024-10-11
+P1349,Nestle Diapers #349,Baby Products,Diapers,Almarai,11.67,Mid-Range,180,4.1,313,2022-11-26
+P1350,Nestle Diapers #350,Baby Products,Diapers,Mai Dubai,11.08,Mid-Range,365,2.4,1087,2023-07-13
+P1351,Mai Dubai Diapers #351,Baby Products,Diapers,Oreo,12.07,Mid-Range,730,3.1,97,2024-05-15
+P1352,Nada Diapers #352,Baby Products,Diapers,Masafi,6.01,Budget,180,2.6,866,2021-06-08
+P1353,Doritos Diapers #353,Baby Products,Diapers,Huggies,18.27,Mid-Range,180,3.6,809,2022-05-31
+P1354,Lux Diapers #354,Baby Products,Diapers,Al Rawabi,14.87,Mid-Range,180,4.3,960,2021-06-01
+P1355,KDD Baby Food #355,Baby Products,Baby Food,Americana,15.83,Mid-Range,365,5.0,1645,2022-02-24
+P1356,Kraft Baby Food #356,Baby Products,Baby Food,Americana,6.92,Budget,90,3.5,1768,2022-08-01
+P1357,Almarai Baby Food #357,Baby Products,Baby Food,Lurpak,21.19,Mid-Range,365,4.1,299,2023-01-25
+P1358,Rainbow Baby Food #358,Baby Products,Baby Food,Lacnor,14.02,Mid-Range,365,3.9,1296,2024-06-14
+P1359,Ariel Baby Food #359,Baby Products,Baby Food,Al Rawabi,20.03,Mid-Range,730,3.7,1765,2023-05-17
+P1360,Mai Dubai Baby Food #360,Baby Products,Baby Food,Nestle,5.05,Budget,730,4.8,482,2024-08-14
+P1361,Huggies Baby Food #361,Baby Products,Baby Food,Sadia,9.57,Budget,730,3.6,1009,2022-07-07
+P1362,Ariel Baby Food #362,Baby Products,Baby Food,Nada,11.41,Mid-Range,90,3.5,1651,2021-01-14
+P1363,Lays Baby Food #363,Baby Products,Baby Food,Lux,2.0,Budget,365,4.0,134,2023-04-18
+P1364,Rainbow Baby Food #364,Baby Products,Baby Food,Huggies,2.56,Budget,90,4.6,32,2021-03-07
+P1365,Nada Baby Food #365,Baby Products,Baby Food,Pampers,29.18,Mid-Range,90,4.9,1704,2021-10-28
+P1366,Puck Baby Food #366,Baby Products,Baby Food,Masafi,4.0,Budget,365,3.3,1038,2022-09-22
+P1367,Nadec Baby Food #367,Baby Products,Baby Food,Almarai,7.86,Budget,180,2.9,1806,2023-04-24
+P1368,Persil Baby Food #368,Baby Products,Baby Food,Sadia,6.01,Budget,730,4.7,1304,2023-08-30
+P1369,Doritos Baby Food #369,Baby Products,Baby Food,Huggies,3.78,Budget,180,4.2,1312,2024-02-19
+P1370,Nadec Baby Food #370,Baby Products,Baby Food,Lux,2.0,Budget,730,4.6,1232,2021-06-14
+P1371,Nada Baby Care #371,Baby Products,Baby Care,Persil,13.01,Mid-Range,365,4.5,1852,2021-06-05
+P1372,Lux Baby Care #372,Baby Products,Baby Care,Kelloggs,8.49,Budget,365,4.6,1279,2023-08-15
+P1373,Masafi Baby Care #373,Baby Products,Baby Care,Al Rawabi,5.71,Budget,180,3.5,286,2023-03-08
+P1374,Kelloggs Baby Care #374,Baby Products,Baby Care,Lux,2.75,Budget,730,4.2,489,2023-12-19
+P1375,Nestle Baby Care #375,Baby Products,Baby Care,Masafi,7.87,Budget,730,2.4,1234,2023-11-02
+P1376,Kraft Baby Care #376,Baby Products,Baby Care,Puck,8.26,Budget,90,4.1,1213,2023-11-29
+P1377,Ariel Baby Care #377,Baby Products,Baby Care,Nada,16.42,Mid-Range,365,1.8,1206,2023-07-08
+P1378,Huggies Baby Care #378,Baby Products,Baby Care,Kelloggs,3.68,Budget,90,4.1,388,2021-11-04
+P1379,Puck Baby Care #379,Baby Products,Baby Care,Dove,3.49,Budget,90,4.3,379,2023-10-29
+P1380,Masafi Baby Care #380,Baby Products,Baby Care,Oreo,4.49,Budget,730,5.0,521,2021-03-27
+P1381,Lux Baby Care #381,Baby Products,Baby Care,Almarai,14.07,Mid-Range,180,2.9,1147,2024-05-26
+P1382,Sadia Baby Care #382,Baby Products,Baby Care,Lipton,6.81,Budget,730,3.8,1173,2021-10-30
+P1383,KDD Baby Care #383,Baby Products,Baby Care,Ariel,5.16,Budget,90,3.8,1868,2021-12-11
+P1384,Dettol Baby Care #384,Baby Products,Baby Care,Huggies,17.89,Mid-Range,180,4.6,1175,2024-08-03
+P1385,Doritos Baby Care #385,Baby Products,Baby Care,Nestle,3.09,Budget,730,4.9,1097,2021-12-27
+P1386,Lays Baby Care #386,Baby Products,Baby Care,Mai Dubai,9.41,Budget,730,3.3,1014,2022-12-05
+P1387,Al Rawabi Shampoo #387,Personal Care,Shampoo,Al Ain,16.51,Mid-Range,180,3.6,589,2022-08-12
+P1388,Mai Dubai Shampoo #388,Personal Care,Shampoo,Lurpak,4.56,Budget,365,3.6,1638,2024-01-31
+P1389,Al Kabeer Shampoo #389,Personal Care,Shampoo,Al Ain,19.14,Mid-Range,730,2.9,1482,2022-02-01
+P1390,Nada Shampoo #390,Personal Care,Shampoo,Pampers,5.82,Budget,90,4.8,1359,2024-09-29
+P1391,Ariel Shampoo #391,Personal Care,Shampoo,Al Rawabi,16.18,Mid-Range,180,2.9,729,2023-12-25
+P1392,Persil Shampoo #392,Personal Care,Shampoo,Doritos,2.66,Budget,365,2.6,921,2023-04-08
+P1393,Sadia Shampoo #393,Personal Care,Shampoo,Mai Dubai,43.37,Premium,365,4.6,740,2021-10-18
+P1394,Lux Shampoo #394,Personal Care,Shampoo,Kraft,27.48,Mid-Range,730,4.5,846,2023-08-20
+P1395,Persil Shampoo #395,Personal Care,Shampoo,Pampers,2.0,Budget,730,3.3,1822,2021-11-24
+P1396,Al Kabeer Shampoo #396,Personal Care,Shampoo,Americana,2.0,Budget,730,5.0,633,2024-05-29
+P1397,Dettol Shampoo #397,Personal Care,Shampoo,Doritos,2.93,Budget,180,2.7,308,2024-08-09
+P1398,Oreo Shampoo #398,Personal Care,Shampoo,Nada,6.55,Budget,365,2.7,47,2023-08-02
+P1399,Puck Shampoo #399,Personal Care,Shampoo,Philadelphia,27.1,Mid-Range,730,4.0,368,2023-06-10
+P1400,Kelloggs Shampoo #400,Personal Care,Shampoo,Doritos,21.22,Mid-Range,365,3.9,623,2023-10-12
+P1401,Kraft Shampoo #401,Personal Care,Shampoo,Al Ain,8.19,Budget,365,4.1,55,2021-11-20
+P1402,Lacnor Shampoo #402,Personal Care,Shampoo,Nestle,6.35,Budget,730,4.2,1830,2024-09-19
+P1403,Oreo Skincare #403,Personal Care,Skincare,Americana,2.0,Budget,730,3.7,1592,2022-05-09
+P1404,Al Kabeer Skincare #404,Personal Care,Skincare,Persil,16.07,Mid-Range,365,3.4,295,2024-03-13
+P1405,Kelloggs Skincare #405,Personal Care,Skincare,Al Kabeer,9.06,Budget,730,3.5,6,2022-08-12
+P1406,Ariel Skincare #406,Personal Care,Skincare,Doritos,3.37,Budget,365,3.6,1487,2024-07-10
+P1407,Oreo Skincare #407,Personal Care,Skincare,Dettol,3.4,Budget,180,4.2,913,2021-06-08
+P1408,Nadec Skincare #408,Personal Care,Skincare,Dove,4.57,Budget,180,4.0,1966,2022-03-21
+P1409,Oreo Skincare #409,Personal Care,Skincare,Puck,22.6,Mid-Range,730,3.7,1413,2024-04-10
+P1410,Almarai Skincare #410,Personal Care,Skincare,Kelloggs,8.17,Budget,730,3.5,895,2021-05-21
+P1411,Mai Dubai Skincare #411,Personal Care,Skincare,Doritos,19.39,Mid-Range,730,4.1,730,2024-05-28
+P1412,Dove Skincare #412,Personal Care,Skincare,Masafi,4.21,Budget,180,3.3,14,2023-09-11
+P1413,Persil Skincare #413,Personal Care,Skincare,Almarai,18.53,Mid-Range,180,3.6,588,2021-06-01
+P1414,Sadia Skincare #414,Personal Care,Skincare,Nadec,2.73,Budget,365,3.3,1321,2021-02-19
+P1415,Oreo Skincare #415,Personal Care,Skincare,Al Rawabi,12.86,Mid-Range,730,4.1,1195,2024-05-10
+P1416,Al Rawabi Skincare #416,Personal Care,Skincare,Sadia,11.81,Mid-Range,730,4.3,1998,2023-09-20
+P1417,Al Ain Skincare #417,Personal Care,Skincare,Lacnor,2.96,Budget,180,3.6,1589,2022-04-28
+P1418,Lux Skincare #418,Personal Care,Skincare,Oreo,6.93,Budget,180,4.6,665,2022-10-24
+P1419,Nada Oral Care #419,Personal Care,Oral Care,Persil,7.65,Budget,365,3.7,992,2024-03-29
+P1420,Kelloggs Oral Care #420,Personal Care,Oral Care,Rainbow,2.56,Budget,730,4.3,1105,2022-05-24
+P1421,KDD Oral Care #421,Personal Care,Oral Care,Nada,12.6,Mid-Range,365,2.7,1686,2024-10-29
+P1422,Oreo Oral Care #422,Personal Care,Oral Care,Masafi,28.99,Mid-Range,730,3.5,463,2023-09-26
+P1423,Kelloggs Oral Care #423,Personal Care,Oral Care,KDD,17.01,Mid-Range,730,3.4,1608,2024-05-26
+P1424,Oreo Oral Care #424,Personal Care,Oral Care,Al Kabeer,12.74,Mid-Range,90,3.6,625,2023-10-03
+P1425,Rainbow Oral Care #425,Personal Care,Oral Care,Nada,14.12,Mid-Range,180,2.9,1704,2021-03-14
+P1426,KDD Oral Care #426,Personal Care,Oral Care,Masafi,3.06,Budget,365,3.3,429,2023-09-26
+P1427,Pampers Oral Care #427,Personal Care,Oral Care,Lacnor,7.59,Budget,90,3.3,1670,2023-08-14
+P1428,Lux Oral Care #428,Personal Care,Oral Care,Al Rawabi,4.49,Budget,90,4.3,153,2023-02-15
+P1429,Ariel Oral Care #429,Personal Care,Oral Care,Lurpak,9.63,Budget,365,4.4,1018,2022-01-16
+P1430,Lays Oral Care #430,Personal Care,Oral Care,Al Ain,2.49,Budget,90,3.7,1158,2022-12-28
+P1431,Kelloggs Oral Care #431,Personal Care,Oral Care,Philadelphia,2.23,Budget,90,2.9,1831,2021-12-20
+P1432,Nestle Oral Care #432,Personal Care,Oral Care,Lipton,2.0,Budget,365,3.4,666,2022-03-29
+P1433,Lux Oral Care #433,Personal Care,Oral Care,Americana,11.37,Mid-Range,180,3.2,1021,2021-11-07
+P1434,Sadia Oral Care #434,Personal Care,Oral Care,Lux,3.55,Budget,180,3.9,637,2021-02-24
+P1435,Lurpak Frozen Vegetables #435,Frozen Foods,Frozen Vegetables,Lurpak,4.1,Budget,90,4.7,1936,2023-09-07
+P1436,Rainbow Frozen Vegetables #436,Frozen Foods,Frozen Vegetables,Oreo,2.0,Budget,730,3.5,1307,2021-12-14
+P1437,Rainbow Frozen Vegetables #437,Frozen Foods,Frozen Vegetables,Masafi,14.76,Mid-Range,180,4.3,325,2021-10-13
+P1438,Persil Frozen Vegetables #438,Frozen Foods,Frozen Vegetables,Doritos,47.25,Premium,180,4.1,982,2022-04-01
+P1439,Pampers Frozen Vegetables #439,Frozen Foods,Frozen Vegetables,Ariel,4.85,Budget,365,4.1,788,2022-04-05
+P1440,Ariel Frozen Vegetables #440,Frozen Foods,Frozen Vegetables,Huggies,13.02,Mid-Range,90,4.5,1682,2022-04-26
+P1441,Lays Frozen Vegetables #441,Frozen Foods,Frozen Vegetables,Philadelphia,4.28,Budget,730,3.0,365,2021-12-07
+P1442,Lays Frozen Vegetables #442,Frozen Foods,Frozen Vegetables,Nestle,2.78,Budget,180,3.3,453,2023-04-15
+P1443,Nada Frozen Vegetables #443,Frozen Foods,Frozen Vegetables,Ariel,3.06,Budget,365,2.3,1224,2021-11-07
+P1444,Nadec Frozen Vegetables #444,Frozen Foods,Frozen Vegetables,Nestle,10.58,Mid-Range,730,3.4,147,2021-12-08
+P1445,Mai Dubai Frozen Vegetables #445,Frozen Foods,Frozen Vegetables,Huggies,2.0,Budget,730,4.7,16,2024-06-16
+P1446,Oreo Frozen Vegetables #446,Frozen Foods,Frozen Vegetables,Nestle,15.02,Mid-Range,180,2.2,1457,2024-03-27
+P1447,Dove Frozen Vegetables #447,Frozen Foods,Frozen Vegetables,Oreo,11.64,Mid-Range,730,4.2,952,2021-03-14
+P1448,Al Rawabi Frozen Vegetables #448,Frozen Foods,Frozen Vegetables,Pampers,5.22,Budget,730,3.4,1234,2021-09-23
+P1449,Nadec Frozen Vegetables #449,Frozen Foods,Frozen Vegetables,Lipton,6.17,Budget,365,3.9,826,2024-08-05
+P1450,Mai Dubai Frozen Vegetables #450,Frozen Foods,Frozen Vegetables,Nestle,7.24,Budget,90,4.4,1138,2021-12-02
+P1451,Kraft Ice Cream #451,Frozen Foods,Ice Cream,Masafi,4.39,Budget,730,4.2,903,2022-04-28
+P1452,Huggies Ice Cream #452,Frozen Foods,Ice Cream,Al Ain,3.15,Budget,90,3.6,1145,2022-04-27
+P1453,Doritos Ice Cream #453,Frozen Foods,Ice Cream,Rainbow,11.09,Mid-Range,730,3.8,1636,2021-04-02
+P1454,Kraft Ice Cream #454,Frozen Foods,Ice Cream,Lays,7.78,Budget,365,2.4,1686,2023-09-16
+P1455,Puck Ice Cream #455,Frozen Foods,Ice Cream,Philadelphia,9.27,Budget,180,3.2,1889,2021-02-12
+P1456,Rainbow Ice Cream #456,Frozen Foods,Ice Cream,Philadelphia,25.14,Mid-Range,365,4.7,471,2021-10-14
+P1457,Pampers Ice Cream #457,Frozen Foods,Ice Cream,KDD,4.26,Budget,180,3.8,1807,2022-11-21
+P1458,Rainbow Ice Cream #458,Frozen Foods,Ice Cream,Huggies,8.32,Budget,180,3.6,461,2023-09-10
+P1459,KDD Ice Cream #459,Frozen Foods,Ice Cream,Al Rawabi,4.71,Budget,90,3.5,1357,2024-03-25
+P1460,Nestle Ice Cream #460,Frozen Foods,Ice Cream,Philadelphia,4.52,Budget,730,3.6,1108,2022-02-04
+P1461,Almarai Ice Cream #461,Frozen Foods,Ice Cream,Nadec,7.48,Budget,365,3.3,1643,2023-02-24
+P1462,Lacnor Ice Cream #462,Frozen Foods,Ice Cream,Americana,4.11,Budget,90,3.3,1249,2023-03-31
+P1463,Doritos Ice Cream #463,Frozen Foods,Ice Cream,Nestle,15.81,Mid-Range,365,4.1,1718,2023-12-23
+P1464,Lacnor Ice Cream #464,Frozen Foods,Ice Cream,Lux,5.23,Budget,180,4.7,772,2022-04-28
+P1465,Dettol Ice Cream #465,Frozen Foods,Ice Cream,Americana,2.9,Budget,365,2.5,1554,2022-03-31
+P1466,Sadia Ice Cream #466,Frozen Foods,Ice Cream,Sadia,14.92,Mid-Range,365,4.3,514,2024-04-21
+P1467,Kraft Frozen Meals #467,Frozen Foods,Frozen Meals,Lurpak,4.66,Budget,365,2.0,250,2023-01-12
+P1468,Doritos Frozen Meals #468,Frozen Foods,Frozen Meals,Kraft,14.74,Mid-Range,730,3.2,1854,2023-06-20
+P1469,Philadelphia Frozen Meals #469,Frozen Foods,Frozen Meals,Nestle,3.34,Budget,365,3.8,704,2022-01-30
+P1470,Philadelphia Frozen Meals #470,Frozen Foods,Frozen Meals,Al Rawabi,19.25,Mid-Range,730,3.7,187,2022-09-21
+P1471,Nada Frozen Meals #471,Frozen Foods,Frozen Meals,Americana,2.84,Budget,180,3.8,1592,2022-09-16
+P1472,Oreo Frozen Meals #472,Frozen Foods,Frozen Meals,Masafi,6.43,Budget,730,5.0,1773,2022-07-08
+P1473,Oreo Frozen Meals #473,Frozen Foods,Frozen Meals,Philadelphia,9.28,Budget,365,3.9,109,2021-07-11
+P1474,Nada Frozen Meals #474,Frozen Foods,Frozen Meals,Philadelphia,4.33,Budget,730,4.5,133,2024-02-28
+P1475,Al Ain Frozen Meals #475,Frozen Foods,Frozen Meals,Huggies,2.06,Budget,90,3.5,1038,2021-08-30
+P1476,Ariel Frozen Meals #476,Frozen Foods,Frozen Meals,Lipton,41.51,Premium,365,3.4,806,2023-02-15
+P1477,Nadec Frozen Meals #477,Frozen Foods,Frozen Meals,Dove,9.22,Budget,365,4.4,83,2023-08-14
+P1478,Al Rawabi Frozen Meals #478,Frozen Foods,Frozen Meals,Masafi,16.59,Mid-Range,180,3.7,585,2023-07-29
+P1479,Persil Frozen Meals #479,Frozen Foods,Frozen Meals,Al Ain,36.99,Mid-Range,365,3.9,849,2024-05-08
+P1480,Doritos Frozen Meals #480,Frozen Foods,Frozen Meals,Rainbow,8.93,Budget,180,3.5,1649,2022-02-12
+P1481,KDD Frozen Meals #481,Frozen Foods,Frozen Meals,Nada,2.0,Budget,730,3.9,1955,2022-01-01
+P1482,Doritos Frozen Meals #482,Frozen Foods,Frozen Meals,Mai Dubai,3.12,Budget,365,2.6,777,2021-12-16
+P1483,Rainbow Baby Food #358,Baby Products,Baby Food,Lacnor,14.02,Mid-Range,365,3.9,1296,2024-06-14
+P1484,Rainbow Milk #53,Dairy & Eggs,Milk,Nada,20.9,Mid-Range,90,3.2,1159,2022-02-08
+P1485,Masafi Baby Care #380,Baby Products,Baby Care,Oreo,4.49,Budget,730,5.0,521,2021-03-27
+P1486,Lurpak Chocolates #222,Snacks,Chocolates,Philadelphia,6.0,Budget,730,2.7,1207,2024-04-20
+P1487,Persil Frozen Meals #479,Frozen Foods,Frozen Meals,Al Ain,36.99,Mid-Range,365,3.9,849,2024-05-08
+P1488,Sadia Ice Cream #466,Frozen Foods,Ice Cream,Sadia,14.92,Mid-Range,365,4.3,514,2024-04-21
+P1489,Kraft Cleaning Supplies #295,Household,Cleaning Supplies,Doritos,8.69,Budget,90,2.7,333,2022-08-03
+P1490,Nadec Baby Food #370,Baby Products,Baby Food,Lux,2.0,Budget,730,4.6,1232,2021-06-14
+P1491,Lays Oral Care #430,Personal Care,Oral Care,Al Ain,2.49,Budget,90,3.7,1158,2022-12-28
+P1492,Nestle Baby Care #375,Baby Products,Baby Care,Masafi,7.87,Budget,730,2.4,1234,2023-11-02
+P1493,Kraft Cleaning Supplies #295,Household,Cleaning Supplies,Doritos,8.69,Budget,90,2.7,333,2022-08-03
+P1494,Lacnor Vegetables #19,Fresh Produce,Vegetables,Ariel,2.0,Budget,365,2.8,652,2023-12-23
+P1495,Masafi Chips #201,Snacks,Chips,Lacnor,2.26,Budget,180,4.6,1476,2023-11-05
+P1496,Dettol Paper Products #318,Household,Paper Products,Dettol,25.85,Mid-Range,730,3.8,574,2023-01-08
+P1497,Lipton Cheese #67,Dairy & Eggs,Cheese,Puck,9.6,Budget,7,4.2,1065,2021-10-07
+P1498,Lays Water #153,Beverages,Water,Doritos,16.2,Mid-Range,90,4.0,137,2023-03-08
+P1499,Dettol Herbs #42,Fresh Produce,Herbs,KDD,3.89,Budget,180,4.8,888,2021-07-17
+P1500,Puck Milk #58,Dairy & Eggs,Milk,Huggies,2.85,Budget,60,4.3,165,2023-03-12
